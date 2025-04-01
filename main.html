@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta Data-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Title-->
+    <title>OMDB Movies</title>
+
+    <!--CSS and JavaScript-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!--Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/d5635d350d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Header Bar-->
+    <div class="header">
+        <div class="header-container">
+            <div>
+                <h1>Search for movies</h1>
+            </div>
+            <div>
+                <a href="./index.html" style="color: aliceblue; text-decoration: none;">Logout</a>
+            </div>
+            <div class="header-link">
+                <span><a href="./favorite.html">Watchlist</a></span>
+            </div>
+            
+        </div>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Type movie name here..." class="search-bar" id="Input">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+    <!--Main Content Container-->
+    <div class="main" id="main">
+        <!-- Search Items Display Section -->
+        <div class="fav-container">
+            <!-- Items are displayed here -->
+        </div>
+        <!--Watermark Area / Start Exploring Section-->
+        
+    </div>
+    <div id="main-container">
+        <div class="home">
+            <h1>Telugu Movies & Shows</h1>
+            <div class="movie-list" id="top10Movies"></div>
+        </div>
+        <div class="home">
+            <h1>Hindi Movies</h1>
+            <div class="movie-list" id="hindiMovies"></div>
+        </div>
+        <div class="home">
+            <h1>Tamil Movies & Shows</h1>
+            <div class="movie-list" id="tamilMovies"></div>
+        </div>
+    
+        <!-- Popular Movies Section -->
+        <div class="home">
+            <h1>Popular Movies</h1>
+            <div class="movie-list" id="popularMovies"></div>
+        </div>
+    
+        <!-- Trending Movies Section -->
+        <div class="home">
+            <h1>Trending Movies</h1>
+            <div class="movie-list" id="trendingMovies"></div>
+        </div>
+        <div class="home">
+            <h1>Horror Shows</h1>
+            <div class="movie-list" id="horrorShows"></div>
+        </div>
+        <div class="home">
+            <h1>webseries</h1>
+            <div class="movie-list" id="webseries"></div>
+        </div>
+        <div class="home">
+            <h1>Kids Zone</h1>
+            <div class="movie-list" id="cartoonShows"></div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
